@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 function Portals() {
-  const [dateInput, setDateInput] = useState("");
+  const [, setDateInput] = useState("");
   const [count, setCount] = useState(0);
 
   useEffect(() => {

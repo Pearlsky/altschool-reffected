@@ -14,7 +14,7 @@ return (
       <nav>
         <ul>
           <li>
-            <Link to="/dashboard" className="btn btn-header">
+            <Link to="/" className="btn btn-header">
               <span>Dashboard</span>
             </Link>
           </li>
@@ -33,7 +33,7 @@ return (
     </header>
 
     <Routes>
-      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/" element={<Dashboard />} />
       <Route path="/portals" element={<ErrorBoundary><Portals /></ErrorBoundary>} />
       <Route path="/users" element={<Users />} />
     </Routes>
